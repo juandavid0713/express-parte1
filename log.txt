@@ -2,3 +2,6 @@ GET /api/usuarios 304 - - 3.208 ms
 GET /api/usuarios 304 - - 0.722 ms
 GET /api/usuarios/1 304 - - 1.106 ms
 GET /api/usuarios/4 304 - - 0.611 ms
+GET /api/usuarios/4 304 - - 2.824 ms
+GET /api/usuarios 304 - - 0.721 ms
+GET /api/usuarios/2 200 25 - 0.583 ms
