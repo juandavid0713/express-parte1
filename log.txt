@@ -1,0 +1,4 @@
+GET /api/usuarios 304 - - 3.208 ms
+GET /api/usuarios 304 - - 0.722 ms
+GET /api/usuarios/1 304 - - 1.106 ms
+GET /api/usuarios/4 304 - - 0.611 ms
