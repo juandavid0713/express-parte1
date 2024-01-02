@@ -10,7 +10,7 @@ const PORT = 3000;
 app.use(express.json());
 //PARA UTILIZAR MIDLEWARE PARA PETICIONES (REQUEST) TIPO PARAMETROS EN FORM URLENCODED
 app.use(express.urlencoded({extended:true}));
-//PARA UTILIZAR MIDLEWARE PARA REGISTROS DE PETICIONES HTTP Y ESCRITURA EN ARCHIVO TXTA
+//PARA UTILIZAR MIDLEWARE PARA REGISTROS DE PETICIONES HTTP Y ESCRITURA EN ARCHIVO TXT
 var accessLogStream = fs.createWriteStream(path.join(__dirname, 'log.txt'), {flags: 'a'});
 app.use(morgan('tiny',{stream:accessLogStream}));
 
