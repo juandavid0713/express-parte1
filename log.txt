@@ -5,3 +5,7 @@ GET /api/usuarios/4 304 - - 0.611 ms
 GET /api/usuarios/4 304 - - 2.824 ms
 GET /api/usuarios 304 - - 0.721 ms
 GET /api/usuarios/2 200 25 - 0.583 ms
+GET /api/usuarios/2?nombre=davison 200 25 - 0.334 ms
+GET /api/usuarios/ 200 103 - 0.539 ms
+POST /api/usuarios 200 25 - 3.939 ms
+GET /api/usuarios 200 129 - 0.340 ms
